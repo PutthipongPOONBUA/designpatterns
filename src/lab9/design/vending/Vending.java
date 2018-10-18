@@ -20,7 +20,7 @@ public class Vending implements CoinBooth {
 
         @Override
         public void getTicket() {
-            System.out.println("You Got Ticket");
+            System.out.println("Get Ticket");
             vendingMachine.setCurrentCoinStation(vendingMachine.getReady());
         }
     }
