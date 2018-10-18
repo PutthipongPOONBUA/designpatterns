@@ -1,8 +1,8 @@
 package lab9.design.vending;
 
 public class VendingMachine {
-    private CoinBooth pay = new MoneyIn(this);
-    private CoinBooth ready = new Standby(this);
+    private CoinBooth pay = new Spend(this);
+    private CoinBooth ready = new Destination(this);
     private CoinBooth end = new Vending(this);
     private CoinBooth currentCoinStation = ready;
 
