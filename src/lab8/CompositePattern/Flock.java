@@ -1,6 +1,6 @@
-package CompositePattern;
+package lab8.CompositePattern;
 
-import AdapterPattern.Quackable;
+import lab8.AdapterPattern.Quackable;
 
 import java.util.ArrayList;
 import java.util.Iterator;

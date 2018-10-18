@@ -1,6 +1,6 @@
-package Duck;
+package lab8.Duck;
 
-import AdapterPattern.Quackable;
+import lab8.AdapterPattern.Quackable;
 
 public class MallardDuck implements Quackable {
     @Override

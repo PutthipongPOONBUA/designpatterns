@@ -1,12 +1,12 @@
-package AbstractFactoryPattern;
+package lab8.AbstractFactoryPattern;
 
-import AdapterPattern.QuackCounter;
-import AdapterPattern.Quackable;
-import DecolatorPattern.QuackEcho;
-import Duck.DuckCall;
-import Duck.MallardDuck;
-import Duck.RedheadDuck;
-import Duck.RubberDuck;
+import lab8.AdapterPattern.QuackCounter;
+import lab8.AdapterPattern.Quackable;
+import lab8.DecolatorPattern.QuackEcho;
+import lab8.Duck.DuckCall;
+import lab8.Duck.MallardDuck;
+import lab8.Duck.RedheadDuck;
+import lab8.Duck.RubberDuck;
 
 public class EchoDuckFactory extends AbstractDuckFactory {
 

@@ -1,4 +1,4 @@
-package AdapterPattern;
+package lab8.AdapterPattern;
 
 public class Goose {
     public void honk()

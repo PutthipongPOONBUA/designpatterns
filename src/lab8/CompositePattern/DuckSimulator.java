@@ -1,9 +1,9 @@
-package CompositePattern;
+package lab8.CompositePattern;
 
-import AbstractFactoryPattern.AbstractDuckFactory;
-import AbstractFactoryPattern.CoutingDuckFactory;
-import AdapterPattern.*;
-import Duck.Pigeon;
+import lab8.AbstractFactoryPattern.AbstractDuckFactory;
+import lab8.AbstractFactoryPattern.CoutingDuckFactory;
+import lab8.AdapterPattern.*;
+import lab8.Duck.Pigeon;
 
 public class DuckSimulator {
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class DuckSimulator {
         flockDuck.add(gooseDuck);
         flockDuck.add(pigeonDuck);
 
-        System.out.println("\nDuck Simulator: Flock");
+        System.out.println("\nlab8.Duck Simulator: Flock");
         simulate(flockDuck);
 
         System.out.println("The ducks quacked " + QuackCounter.getQuacks() + " times \n");

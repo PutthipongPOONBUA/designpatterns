@@ -1,10 +1,10 @@
-package AbstractFactoryPattern;
+package lab8.AbstractFactoryPattern;
 
-import AdapterPattern.*;
-import Duck.DuckCall;
-import Duck.MallardDuck;
-import Duck.RedheadDuck;
-import Duck.RubberDuck;
+import lab8.AdapterPattern.*;
+import lab8.Duck.DuckCall;
+import lab8.Duck.MallardDuck;
+import lab8.Duck.RedheadDuck;
+import lab8.Duck.RubberDuck;
 
 public class CoutingDuckFactory extends AbstractDuckFactory { //Have Decolator
     @Override

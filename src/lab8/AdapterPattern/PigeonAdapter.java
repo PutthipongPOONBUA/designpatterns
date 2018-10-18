@@ -1,6 +1,6 @@
-package AdapterPattern;
+package lab8.AdapterPattern;
 
-import Duck.Pigeon;
+import lab8.Duck.Pigeon;
 
 public class PigeonAdapter implements Quackable {
     Pigeon pigeon;

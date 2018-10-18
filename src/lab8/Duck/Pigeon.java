@@ -1,4 +1,4 @@
-package Duck;
+package lab8.Duck;
 
 public class Pigeon {
     public void coo(){

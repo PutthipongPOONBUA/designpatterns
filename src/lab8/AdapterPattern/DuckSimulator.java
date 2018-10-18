@@ -1,6 +1,6 @@
-package AdapterPattern;
+package lab8.AdapterPattern;
 
-import Duck.*;
+import lab8.Duck.*;
 
 public class DuckSimulator {
     public static void main(String[] args) {
@@ -17,7 +17,7 @@ public class DuckSimulator {
         Quackable gooseDuck = new GooseAdapter(new Goose());
         Quackable pigeon = new PigeonAdapter(new Pigeon());
 
-        System.out.println("\nDuck Simulator");
+        System.out.println("\nlab8.Duck Simulator");
 
         simulate(mallardDuck);
         simulate(redheadDuck);

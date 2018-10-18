@@ -1,9 +1,9 @@
-package AbstractFactoryPattern;
+package lab8.AbstractFactoryPattern;
 
-import AdapterPattern.Goose;
-import AdapterPattern.GooseAdapter;
-import AdapterPattern.QuackCounter;
-import AdapterPattern.Quackable;
+import lab8.AdapterPattern.Goose;
+import lab8.AdapterPattern.GooseAdapter;
+import lab8.AdapterPattern.QuackCounter;
+import lab8.AdapterPattern.Quackable;
 
 public class DuckSimulator {
     public static void main(String[] args) {
@@ -27,7 +27,7 @@ public class DuckSimulator {
         Quackable rubberDuck = duckFactory.createRubberDuck();
         Quackable gooseDuck = new GooseAdapter(new Goose());
 
-        System.out.println("\nDuck Simulator: With Abstract Factory");
+        System.out.println("\nlab8.Duck Simulator: With Abstract Factory");
 
         simulate(mallardDuck);
         simulate(redheadDuck);

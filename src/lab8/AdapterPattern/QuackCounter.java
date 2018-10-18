@@ -1,4 +1,4 @@
-package AdapterPattern;
+package lab8.AdapterPattern;
 
 public class QuackCounter implements Quackable {
     Quackable duck;

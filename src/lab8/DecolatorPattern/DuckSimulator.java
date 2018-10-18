@@ -1,7 +1,7 @@
-package DecolatorPattern;
+package lab8.DecolatorPattern;
 
-import AdapterPattern.*;
-import Duck.*;
+import lab8.AdapterPattern.*;
+import lab8.Duck.*;
 
 public class DuckSimulator {
     public static void main(String[] args) {
@@ -16,7 +16,7 @@ public class DuckSimulator {
         Quackable duckCall = new QuackCounter(new QuackEcho(new DuckCall()));
         Quackable rubberDuck = new QuackCounter(new QuackEcho(new RubberDuck()));
 
-        System.out.println("\nDuck Simulator");
+        System.out.println("\nlab8.Duck Simulator");
 
         simulate(mallardDuck);
         simulate(redheadDuck);
