@@ -1,4 +1,4 @@
-package lab9;
+package lab9.design.design;
 
 public class MainProgram {
     public static void main(String[] args) {

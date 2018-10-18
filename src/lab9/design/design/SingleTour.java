@@ -1,4 +1,4 @@
-package lab9;
+package lab9.design.design;
 
 public class SingleTour implements Tour{
     private String name;

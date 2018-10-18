@@ -1,4 +1,4 @@
-package lab9;
+package lab9.design.design;
 
 public interface Tour {
     String getName();

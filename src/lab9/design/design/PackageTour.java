@@ -1,6 +1,5 @@
-package lab9;
+package lab9.design.design;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
